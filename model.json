@@ -1,0 +1,17 @@
+{
+  "prompts": [
+    "Ok, let's start, ask away =>  ",
+    "Whats your next question? => ",
+    "Anything else you want to know? => ",
+    "What are you getting at? => ",
+    "But what do you really want to know? => ",
+    "What else can I clear up? => ",
+    "Anything else? I have to get going => ",
+    "Any last questions? => "
+  ],
+  "common": {
+    "where am i": "You're logged into a Raspberry Pi running Linux somewhere in NYC.",
+    "who are you": "I'm an automated interview bot created by Manny404.",
+    "a/s/l": "46/binary/nyc"
+  }
+}
