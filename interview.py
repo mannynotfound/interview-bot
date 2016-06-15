@@ -43,10 +43,6 @@ def is_common_question(interview_question):
 def respond(interview_question):
     global index
     global transcript
-    # Build the model.
-    text_model = markovify.Text(text)
-
-    # Print five randomly-generated sentences
     answer = ''
 
     # get question words
@@ -66,6 +62,9 @@ def respond(interview_question):
     common = is_common_question(interview_question)
     if (type(common) is str):
         return common
+
+    # Build the model.
+    text_model = markovify.Text(text)
 
     # generate response
     for i in range(random.randint(1, 5)):
@@ -113,8 +112,7 @@ def end_interview():
 def question_loop():
     global index
 
-    if index > 2:
-    # if index > len(model['prompts']) - 1:
+    if index > len(model['prompts']) - 1:
         end_interview()
         return
 
