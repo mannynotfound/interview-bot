@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mannynotfound/interview-bot/master/cover.png" />
+</p>
+
 # interview-bot
 
 A simple python script to automatically give interviews.
