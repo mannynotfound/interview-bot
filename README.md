@@ -4,7 +4,7 @@
 
 # interview-bot
 
-A simple python script to automatically give interviews.
+A python based terminal prompt app to automate the interview process.
 
 # inspo
 
