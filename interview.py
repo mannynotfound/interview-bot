@@ -1,4 +1,3 @@
-import random
 from email.mime.text import MIMEText
 from termcolor import colored
 import markovify
