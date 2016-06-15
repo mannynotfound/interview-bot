@@ -25,6 +25,7 @@ email = ''
 bot_email = os.environ.get('INTERVIEW_BOT_EMAIL')
 bot_email_password = os.environ.get('INTERVIEW_BOT_EMAIL_PASSWORD')
 interviewee = os.environ.get('INTERVIEWEE')
+interviewee_email = os.environ.get('INTERVIEWEE_EMAIL')
 
 def is_common_question(interview_question):
     q = interview_question.lower()
@@ -104,6 +105,7 @@ def end_interview():
     s.starttls()
     s.login(bot_email, bot_email_password)
     s.sendmail(bot_email, email, content.as_string())
+    s.sendmail(interviewee_email, email, content.as_string())
     s.close()
 
     sys.exit()

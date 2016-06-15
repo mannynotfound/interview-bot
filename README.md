@@ -14,6 +14,15 @@ interviewer to ask questions and document responses.
 
 # usage
 
+### Environment Variables
+
+Variable | Description
+:------- | :----------
+INTERVIEW_BOT_EMAIL | The email to send the interview transcript from (assumes gmail).
+INTERVIEW_BOT_EMAIL_PASSWORD | The password to above email address.
+INTERVIEWEE | The name of the person being interviewed.
+INTERVIEWEE_EMAIL | The email of the person being interviewed.
+
 have the interviewer run `python interview.py` (or better yet, alias it for them) and 
 an interactive shell prompt will take over. After receiving the users name and email (to send a log to),
 the interviewer can ask questions and receive computer generated responses from a sample text provided
