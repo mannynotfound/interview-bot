@@ -9,7 +9,8 @@ A simple python script to automatically give interviews.
 # inspo
 
 Interviews suck, but are a necessary evil. Let's automate them. The idea is to use
-markov chain + NLP to formulate meaningful responses to an interviewer's questions.
+markov chain + NLP to formulate meaningful responses while making it easy for the 
+interviewer to ask questions and document responses.
 
 # usage
 
