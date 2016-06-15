@@ -128,9 +128,9 @@ def question_loop():
 def start_interview():
     global interviewer
     global email
-    interviewer = raw_input(colored('Hey there!, whats your name? => ', 'yellow'))
+    interviewer = raw_input(colored('Hey there! What\'s your name? => ', 'yellow'))
     print ''
-    email = raw_input(colored(interviewer, 'magenta') + colored(', Whats your email? I\'ll send a transcript of our interview => ', 'yellow'))
+    email = raw_input(colored(interviewer, 'magenta') + colored(', What\'s your email? I\'ll send a transcript of our interview => ', 'yellow'))
     print ''
 
     question_loop()
